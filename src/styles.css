@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: burlywood;
+    font-size: 16px; 
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li {
+    list-style: none;
+}
+
+.logo {
+    font-size: 50px;
+    color:#000;
+    font-weight: bold;
+    border-bottom: 3px solid #000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-tareas {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#form-tareas input {
+
+    padding:10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #000;
+    margin-bottom: 14px;
+
+}
+
+.container-grid {
+    display:grid;
+    align-items: center;
+
+    grid-auto-rows: 50px;
+    grid-template-columns: repeat(3, 200px);
+    grid-gap: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+
+}
+
+
+.container-grid > div {
+    text-align: center;
+}
+
+.borrar{
+    color:#fff  ;
+    border: 2px solid red;
+    padding:6px;
+    background: red;
+    border-radius: 5px;
+}
+/* .tarea {
+    grid-column: 1/2;
+   
+}
+    
+
+.ck1 {
+    grid-column: 2/3;
+    border: 1px solid black;
+   
+}
+
+.ch2 {
+    grid-column: 3/4;
+  
+} */
