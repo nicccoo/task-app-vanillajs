@@ -1,3 +1,2 @@
 # task-app-vanillajs
 
-Incompleta
